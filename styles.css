@@ -1,9 +1,20 @@
 /*  your css code here. If applicable */
 #box{
 	background-color:lightblue;
+	color:purple;
 	height:200px;
 	width:200px;
-	border:1px solid black;
-	text-align:center;
-	mar
+	border:2px solid black;
+	 display: flex;
+	
+      justify-content: center; /* Horizontal centering */
+      align-items: center; 
+	
+	
+}
+body{
+	height: 100vh;
+	display:flex;
+	justify-content:center;
+	align-items: center;
 }
